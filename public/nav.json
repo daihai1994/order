@@ -1,0 +1,128 @@
+{
+  "LOGO": {
+    "id": "1",
+    "img": "/image/logo.png",
+    "title": "仓库管理系统"
+  },
+  "all": [
+    {
+      "icon": "setting.png",
+      "title": "基础设置",
+      "child": [{
+          "title": "修改密码",
+          "path": "/homeUpdatePass"
+        },{
+        "title": "个人信息",
+        "path": "/personalInfo"
+      }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "icon": "user.png",
+      "title": "人员管理",
+      "child": [
+        {
+          "title": "人员信息",
+          "path": "/userInfo"
+        }
+      ]
+    },
+    {
+      "icon": "authority.png",
+      "title": "权限管理",
+      "child": [
+        {
+          "title": "权限信息",
+          "path": "/authority"
+        }
+      ]
+    },
+    {
+      "icon": "warehouse.png",
+      "title": "仓库管理",
+      "child": [
+        {
+          "title": "仓库信息",
+          "path": "/warehouse"
+        }
+      ]
+    },
+    {
+      "icon": "supplier.png",
+      "title": "供货商管理",
+      "child": [
+        {
+          "title": "供货商信息",
+          "path": "/supplier"
+        }
+      ]
+    },
+    {
+      "icon": "goods.png",
+      "title": "物品管理",
+      "child": [
+        {
+          "title": "物品信息",
+          "path": "/goods"
+        }
+      ]
+    },
+    {
+      "icon": "stock.png",
+      "title": "库存管理",
+      "child": [
+        {
+          "title": "库存信息",
+          "path": "/stock"
+        }
+      ]
+    },
+    {
+      "icon": "order.png",
+      "title": "下单管理",
+      "child": [
+        {
+          "title": "下单管理",
+          "path": "/order"
+        }
+      ]
+    },
+    {
+      "icon": "warehousing.png",
+      "title": "入库管理",
+      "child": [
+        {
+          "title": "入库管理",
+          "path": "/xxxxx"
+        }
+      ]
+    },
+    {
+      "icon": "outOfStock.png",
+      "title": "出库管理",
+      "child": [
+        {
+          "title": "出库管理",
+          "path": "/xxxx"
+        }
+      ]
+    },
+    {
+      "icon": "inventory.png",
+      "title": "仓库盘点",
+      "child": [
+        {
+          "title": "仓库盘点",
+          "path": "/xx"
+        }
+      ]
+    },
+    {
+      "icon": "log.png",
+      "title": "日志查询",
+      "path": "/logger"
+    }
+  ]
+}
